@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recursos do HMTL5</title>
+</head>
+<body>
+    <h1>Recursos do HMTL5</h1>
+    <div>
+        <video width="320" height="240" controls>
+            <source src="video/cidade.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div>
+        <audio controls>
+            <source src="audio/music.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div>
+        <figure>
+            <img src="img/ricefield.jpg" alt="Campo de arroz">
+            <figcaption>Um lindo campo de arroz</figcaption>
+        </figure>
+    </div>
+    <div>
+        <h3>Preencha o formulário para receber novidades</h3>
+        <form>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Digite seu melhor email" autofocus>
+            <label for="name">Nome:</label>
+            <input type="text" name="name" id="name" required placeholder="Digite seu nome completo">
+            <input type="submit" value="Enviar">
+        </form>
+    </div>
+    <div>
+        <p contenteditable="true">Este é um parágrafo que pode ser editado.</p>
+    </div>
+    <aside>
+        <p>Confira os nossos produtos, <a href="#">Clicando aqui!</a></p>
+    </aside>
+    <details open="open">
+        <summary>PHP</summary>
+        <p>PHP: Hypertext Preprocessor</p>
+    </details>
+    <form>
+        <p>Animais:</p>
+        <input list="animais" name="animais">
+        <datalist id="animais">
+            <option value="Cachorro"></option>
+            <option value="Gato"></option>
+            <option value="Cavalo"></option>
+            <option value="Elefante"></option>
+        </datalist>
+    </form>
+    <p>Barra de loading:</p>
+    <progress value="63" max="100"></progress>
+    <footer>
+        <p>Rodapé</p>
+    </footer>
+</body>
+</html>
