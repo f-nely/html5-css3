@@ -256,3 +256,20 @@
         background-color: #054b05;
     }
 }
+
+/* border radius */
+.div-border {
+    width: 100px;
+    height: 100px;
+    background-color: cornflowerblue;
+    margin: 20px;
+}
+
+.boder-radius1 {
+    border-radius: 50%;
+}
+
+.boder-radius2 {
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
