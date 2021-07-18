@@ -226,3 +226,33 @@
     margin-top: 10px;
     font-family: "Lage Grafica";
 }
+
+/* media query */
+.media-query {
+    width: 1200px;
+    height: 200px;
+    background-color: #008080;
+}
+
+@media (max-width: 1000px) {
+    .media-query {
+        width: 500px;
+        background-color: #db820d;
+        border: 2px dashed #467565;
+    }
+}
+
+@media (max-width: 768px) {
+    .media-query {
+        width: 300px;
+        background-color: #008080;
+        border: 2px solid #6e7546;
+    }
+}
+
+@media (max-width: 512px) {
+    .media-query {
+        width: 500px;
+        background-color: #054b05;
+    }
+}
