@@ -172,3 +172,35 @@
 .calc4 {
     width: calc(50% / 2);
 }
+
+/* gradient */
+.gradient-box {
+    width: 500px;
+    height: 200px;
+    position: relative;
+    margin: 20px;
+}
+
+.gradient1 {
+    background-image: linear-gradient(purple, blue);
+}
+
+.gradient2 {
+    background-image: linear-gradient(to right, purple, blue);
+}
+
+.gradient3 {
+    background-image: linear-gradient(to left, purple, blue);
+}
+
+.gradient4 {
+    background-image: linear-gradient(to top, purple, blue);
+}
+
+.gradient5 {
+    background-image: linear-gradient(to top right, purple, blue);
+}
+
+.gradient6 {
+    background-image: linear-gradient(to right, #3452eb, #5a9c76, #9d75c5);
+}
