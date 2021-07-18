@@ -204,3 +204,15 @@
 .gradient6 {
     background-image: linear-gradient(to right, #3452eb, #5a9c76, #9d75c5);
 }
+
+.gradient7 {
+    background-image: radial-gradient(#3452eb, #5a9c76, teal);
+}
+
+.gradient8 {
+    background-image: radial-gradient(#3452eb 10%, #5a9c76 30%, teal);
+}
+
+.gradient9 {
+    background-image: radial-gradient(circle,#3452eb, #5a9c76, teal);
+}
