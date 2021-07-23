@@ -6,17 +6,16 @@ body {
     display: flex;
     width: 100%;
     background-color: #fff;
+    justify-content: space-evenly;
 }
 
 .box {
+    width: 100px;
     height: 100px;
-    flex: 1 1 auto; /* flex: <grow> <shrink> <basis>*/
 }
 
 .first {
     background-color: #008080;
-    flex: 2 1 auto;
-    order: 3;
 }
 
 .second {
