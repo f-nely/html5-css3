@@ -19,8 +19,10 @@ body {
 
 .second {
     background-color: #4287f5;
+    flex-grow: 1;
 }
 
 .third {
     background-color: #42b6f5;
+    flex-grow: 2;
 }
