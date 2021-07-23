@@ -1,0 +1,26 @@
+body {
+    background-color: #ddd;
+}
+
+.container {
+    display: flex;
+    width: 1000px;
+    background-color: #fff;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+}
+
+.first {
+    background-color: #008080;
+}
+
+.second {
+    background-color: #4287f5;
+}
+
+.third {
+    background-color: #42b6f5;
+}
